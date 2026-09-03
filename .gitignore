@@ -1,0 +1,24 @@
+# данные и артефакты (секреты, БД, библиотека книг, аудио)
+data/
+
+# логи и состояние v1
+logs/
+state/
+
+# легаси CLI-скрипты старого конвейера (не входят в публичный репозиторий)
+scripts/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+web/node_modules/
+
+# прочее
+.DS_Store
+Thumbs.db
+*.log
